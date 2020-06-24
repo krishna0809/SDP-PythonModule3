@@ -1,0 +1,6 @@
+k=int(input('enter the value of k upto which it should print'))
+i=1
+while i<=k:
+    z=7*i
+    print("7 x ",k,"=",z)
+    i=i+1

@@ -1,0 +1,10 @@
+i1=0
+i2=1
+x=int(input('enter upto to which fibonacci series should print'))
+z=0
+while z<=x:
+    print(i1)
+    nth=i1+i2
+    i1=i2
+    i2=nth
+    z=z+1
